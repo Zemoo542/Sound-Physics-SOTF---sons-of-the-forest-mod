@@ -1,0 +1,11 @@
+{
+  "$schema": "https://raw.githubusercontent.com/ToniMacaroni/RedLoader/main/MetadataSchema.json",
+  "id": "SoundPhysicsSOTF",
+  "name": "Sound Physics",
+  "author": "Zemo",
+  "version": "1.0.0",
+  "description": "Real-time acoustic raytracing for every sound: dynamic environment reverb (cabins, caves, canyon echoes) and wall/terrain occlusion. No custom audio or bank edits.",
+  "gameVersion": "1.0.0",
+  "type": "Mod",
+  "url": ""
+}
