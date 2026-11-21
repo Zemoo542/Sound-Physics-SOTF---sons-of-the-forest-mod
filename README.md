@@ -15,9 +15,9 @@ RedLoader mod source for Sons of the Forest. Adds real-time acoustic raytracing 
 
 ## Build
 
-Install the game's RedLoader/BepInEx interop files, then set `SOTF_GAME_DIR` to the game installation directory or pass `-p:GameDir=<game-directory>` to `dotnet build`.
+Install RedLoader and launch the game once so it generates `_Redloader/Game`, then set `SOTF_GAME_DIR` to the game installation directory or pass `-p:GameDir=<game-directory>` to `dotnet build`.
 
-The project targets `net11.0`, matching the bundled Modstoke runtime. Release builds omit debug symbols so the generated DLL does not carry a local PDB path.
+The project targets `net6.0`, matching the RedLoader runtime. Release builds omit debug symbols so the generated DLL does not carry a local PDB path.
 
 ## Mod files
 
@@ -52,6 +52,9 @@ Settings are stored in `UserData/SoundPhysicsSOTF/SoundPhysicsSOTF.cfg`.
 | `soundphysics save` | Saves the current settings to the config file. |
 
 ## Changelog
+
+### 1.0.1
+- Rebuilt for .NET 6 so the mod loads on standard RedLoader. The previous build targeted a newer .NET and could stop RedLoader from loading other mods.
 
 ### 1.0.0
 - Initial public release.

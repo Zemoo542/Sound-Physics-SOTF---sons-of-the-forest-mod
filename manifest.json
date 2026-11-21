@@ -1,10 +1,10 @@
 {
   "$schema": "https://raw.githubusercontent.com/ToniMacaroni/RedLoader/main/MetadataSchema.json",
   "id": "SoundPhysicsSOTF",
-  "name": "Sound Physics SOTF",
+  "name": "Sound Physics",
   "author": "Zemo",
-  "version": "1.0.0",
-  "description": "Dynamic, ray-traced acoustics for Sons of the Forest. Adds realistic reverb to caves, cabins, and canyons, plus dynamic sound muffling behind walls and terrain.",
+  "version": "1.0.1",
+  "description": "Real-time acoustic raytracing for every sound: dynamic environment reverb (cabins, caves, canyon echoes) and wall/terrain occlusion. No custom audio or bank edits.",
   "gameVersion": "1.0.0",
   "type": "Mod",
   "url": ""
